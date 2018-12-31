@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<div class="topnav">
+               <a href="a_register.php" class="current_page_item" style="float:right">Logout</a>
+                <a href="registration1.html" class="current_page_item" style="float:right">View Attendance</a>
+                 <a href="registration.html" class="active" style="float:right">Mark Attendance</a>
+                  <a style="float:right" class="current_page_item" href="addcourse.html">Add Course</a>
+          
+</div>
+
+
+
+
+
+<title>Registration Form Using jQuery - Demo Preview</title>
+<meta name="robots" content="noindex, nofollow">
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="style1.css"/>
+<!-- Include JS File Here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/registration.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="main">
+<form class="form" method="post" action="#">
+<centre>
+<h1>Attendance!!!</h1>
+</centre>
+
+<label>Date :
+<input type="date" name="dname" placeholder="dd/mm/yyyy"><br></label>
+<label>Batch :
+<br>
+<select  style="width:325px"><option value="cse">CSE</option>
+<option value="ece">ECE</option>
+<option value="eee">EEE</option>
+<option value="me">ME</option>
+</select></br>
+</br>
+
+<label>Section :
+<br>
+<select  style="width:325px"><option value="a">A</option>
+<option value="b">B</option>
+<option value="c">C</option>
+<option value="d">D</option>
+</select></br>
+</br>
+
+<label>Period :
+<input type="text" name="password" id="password" placeholder="hour"><br></label>
+<label>Session :
+<br>
+<select style="width:325px"><option value="theory">Theory</option>
+<option value="lab">Lab</option>
+</select></br>
+</br>
+<label>Faculty :
+<input type="text" name="fname" id="name" placeholder="name"><br></label>
+<label>Course Code :
+<input type="text" name="cname" id="cid" placeholder="eg:cse313"><br></label>
+<input type="button" name="submit" id="submit" value="Get List">
+</form>
+</div>
+</body>
+</html>
